@@ -1,0 +1,35 @@
+{
+  "name": "maxgpt-api",
+  "version": "1.0.0",
+  "description": "Backend to handle langchain agent",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node ./dist/app.js",
+    "build": "rollup -c --bundleConfigAsCjs",
+    "watch": "rollup -c -w --bundleConfigAsCjs",
+    "prettier": "prettier --write \"src\" --ignore-path .gitignore"
+  },
+  "author": "Antoni Kois",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.7",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  },
+  "devDependencies": {
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-typescript": "^11.1.0",
+    "@types/cookie-parser": "^1.4.3",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.16.0",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.4"
+  }
+}

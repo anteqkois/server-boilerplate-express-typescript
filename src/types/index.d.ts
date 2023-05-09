@@ -1,0 +1,1 @@
+export type Lang = 'pl-PL' | 'en-US'
